@@ -241,7 +241,7 @@ def show_raw_data(df):
     raw_data = input('\nDo you want to see the raw data? Enter yes or no.\n')
     if raw_data.lower() == 'yes':
         while True: 
-            print(df.iloc[count*5:count*5+5])
+            print(df.iloc[count*10:count*10+10])
             count += 1 
             more = input('\nWould you like to view more? Enter yes or no.\n')
             if more.lower() != 'yes':
