@@ -11,6 +11,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 def get_valid_input(validValues):
     
     # Asks user for input and checks input for correct input values.
+    # Returns correct input value
     
     valid = False
     value = input('>')
