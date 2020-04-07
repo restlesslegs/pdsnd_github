@@ -237,6 +237,12 @@ def user_stats(df):
     print('-'*40)
 
 def show_raw_data(df):
+   
+    # Raw data is displayed upon request by the user in this manner: 
+    #  - Script prompts the user if they want to see 5 lines of raw data, 
+    #  - display that data if the answer is 'yes', 
+    #  - and continue these prompts and displays until the user says 'no'.
+
     count = 0
     raw_data = input('\nDo you want to see the raw data? Enter yes or no.\n')
     if raw_data.lower() == 'yes':
